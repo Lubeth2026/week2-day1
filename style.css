@@ -1,0 +1,16 @@
+#section-1 {
+    border: 20px solid  black;
+    margin:30px;
+    padding:20px;
+    display: flex;
+    display: block;
+}
+h2 {
+    background-color: brown;
+}
+footer {
+    display: flex;
+}
+.first-letter {
+    font-size: 30px;
+}
