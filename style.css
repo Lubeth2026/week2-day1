@@ -14,3 +14,10 @@ footer {
 .first-letter {
     font-size: 30px;
 }
+label {
+    display: flex;
+    flex-direction: column;
+}
+.input-email {
+     padding: 100px;
+}
