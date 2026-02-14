@@ -31,3 +31,92 @@ label {
     border-radius: 3px;
     cursor: pointer;
 }
+
+/** Week 2 Day 4 Demonstration */
+.hero {
+    padding: 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1498354136128-58f790194fa7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-actions {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.mobile-hide {
+    display: none;
+}
+.btn {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
+.primary {
+    background-color: aquamarine;
+}
+.card {
+    background-color: red;
+    width: 250px;
+    height: 300px;
+    margin: 2px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/**Mobile First */
+/* XLL */
+@media (width < 1600px) {
+ 
+}
+/* XL */
+@media (width < 1400px) {
+
+}
+/* LG */
+@media (width < 1200px) {
+
+}
+/* MD */
+@media (width < 992px) {
+.cards {
+    flex-direction: column;
+ }
+.card {
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+}
+/* SM */
+@media (width < 768px) {
+.card {
+    width: 250px;
+}
+}
+/* XS */
+@media (width < 576px) {
+.hero p {
+    display: none;
+}
+.hero > .mobile-hide {
+    display: block;
+}
+}
